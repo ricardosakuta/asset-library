@@ -15,14 +15,14 @@ export default function SidebarMenuItems() {
     return (
         <div>
         <Divider />
-            <ListItem button onClick={() => history.push('/')}>
+            <ListItem button onClick={() => history('/')}>
             <ListItemIcon>
                 <Home />
             </ListItemIcon>
             <ListItemText disableTypography className={classes.SideBarFont} primary="Home" />
             </ListItem >
                 <div>
-                <ListItem button onClick={() => history.push('newasset')}>
+                <ListItem button onClick={() => history('newasset')}>
                 <ListItemIcon>
                     <Build />
                 </ListItemIcon>
